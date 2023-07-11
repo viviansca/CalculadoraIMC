@@ -1,0 +1,58 @@
+body {
+  background: rgb(70,142,236);
+  font: normal 15pt arial;
+}
+
+header {
+  color: white;
+  text-align: center;
+}
+
+section {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  width: 800px;
+  margin: auto;
+  box-shadow: 3px 3px 10px rgba(0,0,0.36);
+}
+
+div {
+  text-align: center;
+  padding: 8px;
+}
+
+
+footer {
+  color: white;
+  text-align: center;
+  font-style: italic;
+}
+
+input {
+padding: 10px;
+width: 750px;
+margin: auto;
+}
+
+.message {
+display: block;
+text-align: center;
+line-height: 50px;
+font-size: 1.2rem;
+font-style: italic;
+position: fixed;
+box-shadow: 0 0 4px #333;
+z-index: 9999;
+}
+
+
+.success {
+  background-color: #2ecc71;
+  color: #fff;
+}
+
+.error {
+  background-color: #e74c3c;
+  color: #fff;
+}

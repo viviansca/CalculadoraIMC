@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Calcule seu IMC</h1>
+    </header>
+
+    <main class="main">
+        <section class="calc-imc">
+          
+          <h4 style="text-align: center;">Preencha as suas informações</h4>
+          
+          <form class="form" id="form">
+
+            <label for="nome">
+            <p><strong>Nome:</strong><br> <input name="nome" id="nome" type="text" /></p>
+            </label>
+
+            <label for="sobrenome">
+            <p>Sobrenome:<br> <input name="sobrenome"  id="sobrenome" type="text" /></p>
+            </label>
+
+            <label for="kilos">
+            <p>Peso:<br> <input name="kilos"  id="kilos" placeholder="Peso atual" type="number" /></p>
+            </label>
+
+            <label for="altura">
+              <p>Altura:<br><input name="altura" id="altura" placeholder="Altura em centímetros" type="number" /></p>
+            </label>
+
+            <button type="submit" style="text-align: center;">Calcular</button>
+            
+            <label for="imc">
+
+              <p style="text-align: center; background-color: rgba(41, 124, 232, 0.885); color: azure;">RESULTADO</p>
+
+              <p style="text-align: center;">Seu IMC é <input disabled="disabled" name="imc" id="imc"/></p>
+              <div class="resultado"></div>
+
+            </label>
+          </form>
+          <div>
+            <img src="imc.jpg" width="500px">
+          </div>
+        
+        
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; viscadev</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
